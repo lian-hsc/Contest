@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.9.0"
+    kotlin("jvm") version "2.1.0"
 }
 
 repositories {
@@ -20,7 +20,7 @@ allprojects {
     }
 
     tasks.withType<KotlinCompile> {
-        kotlinOptions.jvmTarget = "17"
+        kotlinOptions.jvmTarget = "21"
     }
 }
 
@@ -31,5 +31,5 @@ configure(subprojects - project(":Core")) {
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
 }

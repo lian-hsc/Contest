@@ -1,7 +1,5 @@
 package me.task.util.tupple
 
-import java.io.Serializable
-
 /**
  * A mutable pair of two values.
  */
@@ -19,6 +17,12 @@ class MutablePair<A, B>(
         if (other !is MutablePair<*, *>) return false
 
         return first == other.first && second == other.second
+    }
+
+    override fun hashCode(): Int {
+        var result = first?.hashCode() ?: 0
+        result = 31 * result + (second?.hashCode() ?: 0)
+        return result
     }
 
 }

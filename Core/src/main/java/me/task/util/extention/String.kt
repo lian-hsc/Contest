@@ -11,8 +11,7 @@ val String.path
 /**
  * Creates a random string with the given [length].
  */
-fun String.Companion.random(length: Int = 8): String {
-    val source = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+fun String.Companion.random(length: Int = 8, source: String = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"): String {
     return (1..length)
         .map { source.random() }
         .joinToString("")

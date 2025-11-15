@@ -15,7 +15,7 @@ including coding contests or the advent of code.
 - [38th Classic CCC (Autumn 2023)](CCC2023Autumn/src/main/kotlin/me/goldentrio/classic)
   - Team: The Golden Trio
   - Location: Linz (JKU Linz)
-  - Completed Levels: 4 (4 in Contest)
+  - Completed Levels: 4
   - Total Time: 00:48:23
   - Local Rank: 16
   - Global Rank: 156
@@ -32,7 +32,7 @@ including coding contests or the advent of code.
   - Completed Levels: 3 (Some idea for 4, but not finished)
   - Total Time: 01:38:13
   - Local Rank: 62
-  - Global Rank: ?
+  - Global Rank: 409
 - [40th Classic CCC (Autumn 2024)](CCC2024Autumn/src/main/kotlin/me/goldenduo)
   - Team: The Golden Duo
   - Location: Linz (JKU Linz)
@@ -40,6 +40,13 @@ including coding contests or the advent of code.
   - Total Time: 03:46:50
   - Local Rank: 8
   - Global Rank: 90
+- [41st Classic CCC (Autumn 2025)](CCC2025Autumn/src/main/kotlin/me/goldentrio)
+  - Team: The Golden Trio
+  - Location: Linz (JKU Linz)
+  - Completed Levels: 5
+  - Total Time: 03:44:09
+  - Local Rank: 28
+  - Global Rank: 257
 
 ## Advent of Code
 - [Advent of Code 2024](AdventOfCode2024/src/main/kotlin/me/aoc)
